@@ -13,14 +13,11 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .step-box {
   width: 300px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 30px;
   padding: 10px;
   position: relative;
   background-color: #eee;
@@ -72,14 +69,12 @@ footer {
 
 
 
-
-
 @media (max-width: 768px) {
   main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
+    flex-direction: column;
   }
 
   .step-box {
